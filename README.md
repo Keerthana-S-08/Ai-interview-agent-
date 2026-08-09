@@ -1,2 +1,202 @@
 # Ai-interview-agent-
 AI Interview Agent is an AI-powered platform that delivers personalized mock interviews with real-time conversations, intelligent follow-ups, and instant feedback. It helps students and professionals practice technical concepts across AI/ML  concepts identify knowledge gaps, and build confidence to perform better in real job interviews anytime.
+
+🤖 AI Interview Agent
+
+«Build an interviewer, not an interview.»
+
+An AI-powered technical interviewer that conducts personalized, multi-turn interviews based on a candidate's learning journey.
+
+Built for ABTalks Vibe Code Hackathon — Problem Statement 2: The Interview Agent.
+
+---
+
+🎯 The Idea
+
+Traditional interviews ask the same questions to everyone.
+
+AI Interview Agent is different.
+
+Candidate Profile
+       ↓
+Learning Journey
+       ↓
+Relevant Technical Question
+       ↓
+Candidate Answer
+       ↓
+AI Evaluation
+       ↓
+Adaptive Follow-up
+       ↓
+Final Feedback
+
+The interviewer listens, adapts, and remembers the conversation.
+
+---
+
+✨ Key Features
+
+- 🧑‍💻 Personalized Interviews — Questions based on the candidate's completed learning journey.
+- 🧠 Curriculum-Aware — Uses the provided 31-day AI curriculum.
+- 🔄 Adaptive Questions — Follow-ups change based on previous answers.
+- 💬 Multi-Turn Conversation — Maintains context throughout the interview.
+- 📊 Technical Evaluation — Understands strong, mixed, and weak responses.
+- 📝 Actionable Feedback — Provides summary, strengths, gaps, and next steps.
+- 🔌 API-Based — Implements the required "POST /api/interview" endpoint.
+
+---
+
+🏗️ Tech Stack
+
+Layer| Technology
+Frontend| React + Vite
+Backend| Python + FastAPI
+AI| Gemini
+Data| JSON
+Development| VS Code + GitHub
+
+---
+
+🔄 How It Works
+
+1️⃣ Select Candidate
+
+The system loads the candidate's profile and learning history.
+
+2️⃣ Start Interview
+
+The AI selects relevant topics from the curriculum.
+
+3️⃣ Answer
+
+The candidate responds to the technical question.
+
+4️⃣ Adapt
+
+The AI evaluates the answer and generates an intelligent follow-up.
+
+5️⃣ Complete
+
+After the required interview questions, the AI generates a technical report.
+
+Question → Answer → Evaluate → Adapt → Repeat → Feedback
+
+---
+
+💡 Example
+
+AI:
+Explain how RAG works.
+
+Candidate:
+RAG retrieves relevant information and provides it to the language model as context.
+
+AI:
+Good. How would you evaluate whether your retrieval system is returning relevant documents?
+
+➡️ The next question depends on the previous answer.
+
+---
+
+📊 Final Feedback
+
+At the end of the interview, the candidate receives:
+
+📋 Summary
+💪 Strengths
+⚠️ Gaps
+🚀 Next Steps
+
+The goal is not just to score the candidate, but to help them understand what to improve next.
+
+---
+
+🔌 API
+
+POST /api/interview
+
+The same "sessionId" maintains the conversation across multiple turns.
+
+Start Interview
+      ↓
+sessionId
+      ↓
+Question + Answer
+      ↓
+Same sessionId
+      ↓
+Adaptive Follow-up
+
+---
+
+📁 Project Structure
+
+ai-interview-agent/
+│
+├── backend/
+│   ├── app/
+│   └── data/
+│
+├── frontend/
+│   ├── src/
+│   └── public/
+│
+├── PROMPTS.md
+├── README.md
+└── .gitignore
+
+---
+
+🚀 Run Locally
+
+Backend
+
+cd backend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+
+Frontend
+
+cd frontend
+npm install
+npm run dev
+
+Add your Gemini API key to:
+
+backend/.env
+
+---
+
+🧪 Core Requirements
+
+✅ Conversational interview
+✅ Minimum 8 questions
+✅ 4+ curriculum days
+✅ Candidate personalization
+✅ Adaptive follow-up questions
+✅ Conversation context
+✅ Structured final feedback
+✅ Required API endpoint
+
+---
+
+🤖 AI-Assisted Development
+
+This project was developed using ChatGPT as the primary AI-assisted development tool for planning, coding assistance, debugging, testing, UI development, and documentation.
+
+Detailed AI usage is documented in:
+
+"PROMPTS.md"
+
+---
+
+🏆 Hackathon
+
+ABTalks Vibe Code Hackathon
+
+Problem Statement 2 — The Interview Agent
+
+«Don't build a questionnaire. Build an interviewer.»
