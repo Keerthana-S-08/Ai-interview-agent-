@@ -76,6 +76,9 @@ Development| VS Code + GitHub
 
 
 
+
+
+
 <img width="1344" height="629" alt="ab3" src="https://github.com/user-attachments/assets/49dc24f1-5e3d-4f96-ba5d-8c1af70ec069" />
 
 
@@ -83,9 +86,17 @@ The system loads the candidate's profile and learning history.
 
 2️⃣ Start Interview
 
+<img width="1349" height="635" alt="ab4" src="https://github.com/user-attachments/assets/83f440fc-2dae-4792-8016-6bfb8284d12f" />
+
+
+
+
 The AI selects relevant topics from the curriculum.
 
 3️⃣ Answer
+
+<img width="1348" height="646" alt="ab5" src="https://github.com/user-attachments/assets/b57f73f7-dda7-4acd-9e4a-d8f2365cf844" />
+
 
 The candidate responds to the technical question.
 
