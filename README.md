@@ -2,6 +2,13 @@
 AI Interview Agent is an AI-powered platform that delivers personalized mock interviews with real-time conversations, intelligent follow-ups, and instant feedback. It helps students and professionals practice technical concepts across AI/ML  concepts identify knowledge gaps, and build confidence to perform better in real job interviews anytime.
 
 🤖 AI Interview Agent
+<img width="1345" height="642" alt="ab1" src="https://github.com/user-attachments/assets/0466ba05-ed63-449f-aa91-adc93936175d" />
+
+
+
+
+
+
 
 «Build an interviewer, not an interview.»
 
