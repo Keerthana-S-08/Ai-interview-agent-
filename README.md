@@ -102,13 +102,27 @@ The candidate responds to the technical question.
 
 4️⃣ Adapt
 
+<img width="1349" height="640" alt="ab8" src="https://github.com/user-attachments/assets/333f0cd3-7215-4f27-b4be-eaec7dc10fbf" />
+
+
+
+
+
+
+<img width="1345" height="637" alt="ab9" src="https://github.com/user-attachments/assets/b1e6d052-5c0c-4d84-b07c-9219b63e19c7" />
+
+
 The AI evaluates the answer and generates an intelligent follow-up.
 
 5️⃣ Complete
 
 After the required interview questions, the AI generates a technical report.
+<img width="1342" height="687" alt="ab10" src="https://github.com/user-attachments/assets/26974ae1-1b4d-408a-95aa-2adb075ad99d" />
+
 
 Question → Answer → Evaluate → Adapt → Repeat → Feedback
+
+
 
 ---
 
@@ -177,8 +191,11 @@ ai-interview-agent/
 ---
 
 🚀 Run Locally
+<img width="1366" height="729" alt="setup" src="https://github.com/user-attachments/assets/6046782d-0246-42ba-8453-9e7356384909" />
 
-Backend
+Commands to run the code in VS code.
+
+terminal 1 Backend
 
 cd backend
 python -m venv .venv
@@ -186,7 +203,7 @@ python -m venv .venv
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 
-Frontend
+terminal 2 Frontend
 
 cd frontend
 npm install
